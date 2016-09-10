@@ -1,0 +1,516 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E642A371D845C81001BF12A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E642A361D845C81001BF12A /* AppDelegate.swift */; };
+		2E642A391D845C81001BF12A /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E642A381D845C81001BF12A /* FirstViewController.swift */; };
+		2E642A3B1D845C81001BF12A /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E642A3A1D845C81001BF12A /* SecondViewController.swift */; };
+		2E642A3E1D845C81001BF12A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E642A3C1D845C81001BF12A /* Main.storyboard */; };
+		2E642A401D845C81001BF12A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E642A3F1D845C81001BF12A /* Assets.xcassets */; };
+		2E642A431D845C81001BF12A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E642A411D845C81001BF12A /* LaunchScreen.storyboard */; };
+		2E642A4E1D845C82001BF12A /* diarygramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E642A4D1D845C82001BF12A /* diarygramTests.swift */; };
+		2E642A591D845C82001BF12A /* diarygramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E642A581D845C82001BF12A /* diarygramUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2E642A4A1D845C82001BF12A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E642A2B1D845C81001BF12A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E642A321D845C81001BF12A;
+			remoteInfo = diarygram;
+		};
+		2E642A551D845C82001BF12A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E642A2B1D845C81001BF12A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E642A321D845C81001BF12A;
+			remoteInfo = diarygram;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2E642A331D845C81001BF12A /* diarygram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = diarygram.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E642A361D845C81001BF12A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2E642A381D845C81001BF12A /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		2E642A3A1D845C81001BF12A /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		2E642A3D1D845C81001BF12A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2E642A3F1D845C81001BF12A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2E642A421D845C81001BF12A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2E642A441D845C81001BF12A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E642A491D845C82001BF12A /* diarygramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = diarygramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E642A4D1D845C82001BF12A /* diarygramTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = diarygramTests.swift; sourceTree = "<group>"; };
+		2E642A4F1D845C82001BF12A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E642A541D845C82001BF12A /* diarygramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = diarygramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E642A581D845C82001BF12A /* diarygramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = diarygramUITests.swift; sourceTree = "<group>"; };
+		2E642A5A1D845C82001BF12A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E642A301D845C81001BF12A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E642A461D845C82001BF12A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E642A511D845C82001BF12A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E642A2A1D845C81001BF12A = {
+			isa = PBXGroup;
+			children = (
+				2E642A351D845C81001BF12A /* diarygram */,
+				2E642A4C1D845C82001BF12A /* diarygramTests */,
+				2E642A571D845C82001BF12A /* diarygramUITests */,
+				2E642A341D845C81001BF12A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2E642A341D845C81001BF12A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E642A331D845C81001BF12A /* diarygram.app */,
+				2E642A491D845C82001BF12A /* diarygramTests.xctest */,
+				2E642A541D845C82001BF12A /* diarygramUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E642A351D845C81001BF12A /* diarygram */ = {
+			isa = PBXGroup;
+			children = (
+				2E642A361D845C81001BF12A /* AppDelegate.swift */,
+				2E642A381D845C81001BF12A /* FirstViewController.swift */,
+				2E642A3A1D845C81001BF12A /* SecondViewController.swift */,
+				2E642A3C1D845C81001BF12A /* Main.storyboard */,
+				2E642A3F1D845C81001BF12A /* Assets.xcassets */,
+				2E642A411D845C81001BF12A /* LaunchScreen.storyboard */,
+				2E642A441D845C81001BF12A /* Info.plist */,
+			);
+			path = diarygram;
+			sourceTree = "<group>";
+		};
+		2E642A4C1D845C82001BF12A /* diarygramTests */ = {
+			isa = PBXGroup;
+			children = (
+				2E642A4D1D845C82001BF12A /* diarygramTests.swift */,
+				2E642A4F1D845C82001BF12A /* Info.plist */,
+			);
+			path = diarygramTests;
+			sourceTree = "<group>";
+		};
+		2E642A571D845C82001BF12A /* diarygramUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2E642A581D845C82001BF12A /* diarygramUITests.swift */,
+				2E642A5A1D845C82001BF12A /* Info.plist */,
+			);
+			path = diarygramUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2E642A321D845C81001BF12A /* diarygram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E642A5D1D845C82001BF12A /* Build configuration list for PBXNativeTarget "diarygram" */;
+			buildPhases = (
+				2E642A2F1D845C81001BF12A /* Sources */,
+				2E642A301D845C81001BF12A /* Frameworks */,
+				2E642A311D845C81001BF12A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = diarygram;
+			productName = diarygram;
+			productReference = 2E642A331D845C81001BF12A /* diarygram.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2E642A481D845C82001BF12A /* diarygramTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E642A601D845C82001BF12A /* Build configuration list for PBXNativeTarget "diarygramTests" */;
+			buildPhases = (
+				2E642A451D845C82001BF12A /* Sources */,
+				2E642A461D845C82001BF12A /* Frameworks */,
+				2E642A471D845C82001BF12A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E642A4B1D845C82001BF12A /* PBXTargetDependency */,
+			);
+			name = diarygramTests;
+			productName = diarygramTests;
+			productReference = 2E642A491D845C82001BF12A /* diarygramTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2E642A531D845C82001BF12A /* diarygramUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E642A631D845C82001BF12A /* Build configuration list for PBXNativeTarget "diarygramUITests" */;
+			buildPhases = (
+				2E642A501D845C82001BF12A /* Sources */,
+				2E642A511D845C82001BF12A /* Frameworks */,
+				2E642A521D845C82001BF12A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E642A561D845C82001BF12A /* PBXTargetDependency */,
+			);
+			name = diarygramUITests;
+			productName = diarygramUITests;
+			productReference = 2E642A541D845C82001BF12A /* diarygramUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2E642A2B1D845C81001BF12A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Ryoji Miyazaki";
+				TargetAttributes = {
+					2E642A321D845C81001BF12A = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 5E3CUS993A;
+					};
+					2E642A481D845C82001BF12A = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 2E642A321D845C81001BF12A;
+					};
+					2E642A531D845C82001BF12A = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 2E642A321D845C81001BF12A;
+					};
+				};
+			};
+			buildConfigurationList = 2E642A2E1D845C81001BF12A /* Build configuration list for PBXProject "diarygram" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2E642A2A1D845C81001BF12A;
+			productRefGroup = 2E642A341D845C81001BF12A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2E642A321D845C81001BF12A /* diarygram */,
+				2E642A481D845C82001BF12A /* diarygramTests */,
+				2E642A531D845C82001BF12A /* diarygramUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2E642A311D845C81001BF12A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E642A431D845C81001BF12A /* LaunchScreen.storyboard in Resources */,
+				2E642A401D845C81001BF12A /* Assets.xcassets in Resources */,
+				2E642A3E1D845C81001BF12A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E642A471D845C82001BF12A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E642A521D845C82001BF12A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E642A2F1D845C81001BF12A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E642A3B1D845C81001BF12A /* SecondViewController.swift in Sources */,
+				2E642A371D845C81001BF12A /* AppDelegate.swift in Sources */,
+				2E642A391D845C81001BF12A /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E642A451D845C82001BF12A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E642A4E1D845C82001BF12A /* diarygramTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E642A501D845C82001BF12A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E642A591D845C82001BF12A /* diarygramUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2E642A4B1D845C82001BF12A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E642A321D845C81001BF12A /* diarygram */;
+			targetProxy = 2E642A4A1D845C82001BF12A /* PBXContainerItemProxy */;
+		};
+		2E642A561D845C82001BF12A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E642A321D845C81001BF12A /* diarygram */;
+			targetProxy = 2E642A551D845C82001BF12A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2E642A3C1D845C81001BF12A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E642A3D1D845C81001BF12A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2E642A411D845C81001BF12A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E642A421D845C81001BF12A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2E642A5B1D845C82001BF12A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2E642A5C1D845C82001BF12A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2E642A5E1D845C82001BF12A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = diarygram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.miyaryj.ios.diarygram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		2E642A5F1D845C82001BF12A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = diarygram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.miyaryj.ios.diarygram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		2E642A611D845C82001BF12A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = diarygramTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.miyaryj.ios.diarygramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/diarygram.app/diarygram";
+			};
+			name = Debug;
+		};
+		2E642A621D845C82001BF12A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = diarygramTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.miyaryj.ios.diarygramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/diarygram.app/diarygram";
+			};
+			name = Release;
+		};
+		2E642A641D845C82001BF12A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = diarygramUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.miyaryj.ios.diarygramUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = diarygram;
+			};
+			name = Debug;
+		};
+		2E642A651D845C82001BF12A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = diarygramUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.miyaryj.ios.diarygramUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = diarygram;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E642A2E1D845C81001BF12A /* Build configuration list for PBXProject "diarygram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E642A5B1D845C82001BF12A /* Debug */,
+				2E642A5C1D845C82001BF12A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E642A5D1D845C82001BF12A /* Build configuration list for PBXNativeTarget "diarygram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E642A5E1D845C82001BF12A /* Debug */,
+				2E642A5F1D845C82001BF12A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2E642A601D845C82001BF12A /* Build configuration list for PBXNativeTarget "diarygramTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E642A611D845C82001BF12A /* Debug */,
+				2E642A621D845C82001BF12A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2E642A631D845C82001BF12A /* Build configuration list for PBXNativeTarget "diarygramUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E642A641D845C82001BF12A /* Debug */,
+				2E642A651D845C82001BF12A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2E642A2B1D845C81001BF12A /* Project object */;
+}
